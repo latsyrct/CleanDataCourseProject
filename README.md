@@ -23,4 +23,4 @@ From the data set in step 4, creates a second, independent tidy data set with th
 Run_analysis.R
 ===============
 
-To run the code, type source("run_analysis.R"). This will download the require package (plyr) and required data and store it in a zip file called data.zip, After this a new folder will be generated (results/) containing the two required datasets (merged.txt & average.txt).
+To run the code, type **source("run_analysis.R")**. This will download the require package (plyr) and required data and store it in a zip file called data.zip, After this a new folder will be generated (results/) containing the two required datasets **(merged.txt & average.txt)**.
