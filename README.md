@@ -25,5 +25,5 @@ Run_analysis.R
 
 To run the code, type source("run_analysis.R"). This will download the require package (plyr) and required data and store it in a zip file called data.zip, After this a new folder will be generated (results/) containing the two required datasets.
 
-  merged.txt
-  average.txt
+  1.merged.txt
+  2.average.txt
