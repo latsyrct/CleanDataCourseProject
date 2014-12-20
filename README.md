@@ -23,4 +23,25 @@ From the data set in step 4, creates a second, independent tidy data set with th
 Run_analysis.R
 ===============
 
-To run the code, type **source("run_analysis.R")**. This will download the require package (plyr) and required data and store it in a zip file called data.zip, After this a new folder will be generated (results/) containing the two required datasets **(merged.txt & average.txt)**.
+To run the code, type **source("run_analysis.R")**. This will download the require package (plyr) and required data and store it in a zip file called data.zip, After this a new folder will be generated (result/) containing the two required datasets **(merged.txt & average.txt)**.
+
+Step: 
+1. Load plyr library
+2. Download the required data
+3. Create results folder
+4. Loads feature data set features.txt used for columns
+5. Loads and appends train dataset
+6. Merges the training and the test sets to create one data set. 
+7. Rearrange the data using id
+8. Extracts only the measurements on the mean and standard deviation for each measurement. 
+9. Uses descriptive activity names to name the activities in the data set.
+10. Appropriately labels the data set with descriptive activity names.  
+11. Save merged data to result\merged.txt
+12. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+13. Save average data to result\average.txt
+
+
+
+Uses plur to calculate mean on activity for each id
+appends _mean to all data columns
+saves the tidy dataset2 into result/dataset2.csv
